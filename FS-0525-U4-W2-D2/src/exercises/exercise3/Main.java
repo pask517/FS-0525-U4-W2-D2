@@ -10,7 +10,10 @@ public class Main {
         PhoneBook.addToPhoneBook(roberto);
         PhoneBook.addToPhoneBook(carlo);
         PhoneBook.addToPhoneBook(pierluigi);
-        PhoneBook.getAllContacts();
+        PhoneBook.printAllContacts();
+        PhoneBook.printByName("Andrea");
+        PhoneBook.removeFromPhoneBook("Carlo");
+        PhoneBook.printAllContacts();
     }
 
 }

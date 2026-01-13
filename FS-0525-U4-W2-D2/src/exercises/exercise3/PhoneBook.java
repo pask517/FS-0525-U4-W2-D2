@@ -18,11 +18,11 @@ public abstract class PhoneBook {
     //public Contact getByPhone(Long phoneNumber){
     //}
 
-    public static void getByName(String name) {
-        System.out.println("Eccoti il contatto di" + name + contactsList.get(name));
+    public static void printByName(String name) {
+        System.out.println("Eccoti il numero di " + name + " : " + contactsList.get(name));
     }
 
-    public static void getAllContacts() {
-        System.out.println(contactsList.toString());
+    public static void printAllContacts() {
+        System.out.println(contactsList);
     }
 }
